@@ -1,0 +1,13 @@
+
+1. We get the user input from the console.
+
+2. We create a map that stores the candies as keys and their indexes as values.
+
+3. We sort the candies array, so the candies with the least grams of sugar will be at the beginning. 
+	We create an ArrayList and a gram counter,so when we use a loop, we 
+	can put the allowed amount of grams in the 'gram' variable and we add the original index into the 
+	arrayList 'eatenCandies'. The loop stops when we cannot add any more candies to the counter without exceeding the threshold.
+
+4. We sort the contents of the arrayList so the lowest indexes are displayed first
+ and store them into a new int array "result". Finally, we return the newly created array.
+   
